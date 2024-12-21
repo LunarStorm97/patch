@@ -34,7 +34,7 @@ jobs:
         run: |
           lz4 -d boot.img.lz4
           chmod +x libmagiskboot.so
-          ##!/system/bin/sh
+          #!/bin/bash
 
           #########
           # Unpack

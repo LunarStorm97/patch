@@ -38,5 +38,7 @@
 
 ./libmagiskboot.so repack "boot.img" > /dev/null 2>&1
 
+echo done
+
 # Reset any error code
 true > /dev/null 2>&1

@@ -34,3 +34,4 @@ jobs:
         run: |
           lz4 boot.img.lz4 > lz4_output.log
           chmod +x boot_patch.sh
+          ./boot_patch.sh

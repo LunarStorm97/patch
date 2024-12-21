@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: lz4 boot.img.lz4 && chmod +x *
+        run: bash lz4 boot.img.lz4 && chmod +x *
 
       # Runs a set of commands using the runners shell
       - uses: mxschmitt/action-tmate@v3.19

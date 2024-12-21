@@ -5,7 +5,7 @@
 #########
 
 ./libmagiskboot.so unpack "boot.img" > /dev/null 2>&1
-apt install tree && tree
+sudo apt install tree && tree
 
 #################
 # Binary Patches

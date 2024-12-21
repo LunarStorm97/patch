@@ -1,4 +1,4 @@
-#!/system/bin/shell
+#!/system/bin/bash
 
 #########
 # Unpack

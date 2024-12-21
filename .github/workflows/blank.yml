@@ -34,4 +34,5 @@ jobs:
         run: |
           chmod +x boot_patch.sh libmagiskboot.so
           ./boot_patch.sh
+          ls -a
           

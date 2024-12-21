@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          lz4 boot.img.lz4 > lz4_output.log
+          lz4 boot.img.lz4 boot.img
           chmod +x boot_patch.sh libmagiskboot.so
           ./boot_patch.sh

@@ -4,7 +4,7 @@
 # Unpack
 #########
 
-bash /libmagiskboot.so unpack "boot.img"
+bash libmagiskboot.so unpack "boot.img"
 
 #################
 # Binary Patches

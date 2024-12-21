@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           lz4 -d boot.img.lz4
-          chmod +x boot_patch.sh libmagiskboot.so 
+          chmod +x boot_patch.sh

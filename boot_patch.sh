@@ -42,13 +42,13 @@ lz4 "boot.img.lz4" > /dev/null 2>&1
 # Repack
 #################
 
-./libmagiskboot.so repack "boot.img" > /dev/null 2>&1
+./libmagiskboot.so repack "boot.img"
 
 #################
 # Clean
 #################
 
-./libmagiskboot.so cleanup > /dev/null 2>&1
+./libmagiskboot.so cleanup
 
 # Reset any error code
 true

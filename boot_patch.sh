@@ -8,9 +8,9 @@
 # Unpack
 #################
 
-lz4 "boot.img.lz4"
+lz4 "boot.img.lz4" > /dev/null 2>&1
 
-./libmagiskboot.so unpack "boot.img" /dev/null 2>&1
+./libmagiskboot.so unpack "boot.img"
 
 #################
 # Binary Patches

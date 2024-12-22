@@ -26,7 +26,7 @@ lz4 "boot.img.lz4" "boot.img"
 # After:  [mov w2, #-32768]
 ./libmagiskboot.so hexpatch "kernel" 821B8012 E2FF8F12
 
-# Disable Samsung PROCA
+# Disable Process Authentication (PROCA)
 # proca_config -> proca_magisk
 ./libmagiskboot.so hexpatch "kernel" \
   70726F63615F636F6E66696700 \

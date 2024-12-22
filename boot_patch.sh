@@ -8,7 +8,7 @@
 # Unpack
 #################
 
-lz4 "boot.img.lz4" > /dev/null 2>&1
+lz4 "boot.img.lz4" "boot.img"
 
 ./libmagiskboot.so unpack "boot.img" > /dev/null 2>&1
 

@@ -34,3 +34,12 @@ jobs:
         run: |
           chmod +x "boot_patch.sh" "libmagiskboot.so"
           ./boot_patch.sh
+
+      # Create a release and upload new-boot.img using softprops/action-gh-release
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: new-boot.img
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_NAME: ${{ github.run_id }}

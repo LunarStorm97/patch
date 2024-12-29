@@ -42,5 +42,4 @@ jobs:
           files: new-boot.img
           tag_name: TAG_NAME
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG_NAME: ${{ github.run_id }}
